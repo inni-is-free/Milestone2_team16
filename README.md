@@ -84,7 +84,8 @@ pip install -r requirements.txt
 ```
 
 
-## Team Member(If you have any questions or get trouble, feel free to contact below team member!!)
+## Team Member
+- If you have any questions or get trouble, feel free to contact below team member!!
 - Eric Kim : erikkim@umich.edu
 - Shin choo : shinchoo@umich.edu
 - Younghoon Oh : hooni@umich.edu
