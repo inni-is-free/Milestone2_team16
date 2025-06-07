@@ -28,47 +28,60 @@ README.md
 ```
 
 ## Features
-
+```
 - Text vectorization using `SentenceTransformer('all-mpnet-base-v2')`
 - Multi-hot encoding of genres, actors, directors, etc.
 - SMOTE for class imbalance handling
 - Model evaluation with ROC, PR, and calibration curves
 - DBSCAN clustering for unsupervised exploration
+```
 
 ## Requirements
+```
 Install dependencies:
 pip install -r requirements.txt
+```
 
 ## Models Used for Supervised Learning
+```
 RandomForest
 XGBoost (with tuning)
 LogisticRegression
 KNN (excluded in final version)
 Model Ensemble (VotingClassifier)
+```
 
 ## Models Used for Unsupervised Learning
+```
 KMeans Clustering
 DBSCAN
+```
 
 ## Visualization Outputs
+```
 This project includes:
 Confusion matrix
 Feature importance plots
 ROC / PR / Calibration curves
 Model performance comparison bar chart
+```
 
 ## Data Reproducibility Notice
+```
 To ensure reproducibility and consistent results in both unsupervised and supervised learning models, this project uses a frozen version of the final dataset: df_final_frozen_62188.csv.
 
 Although the same codebase can generate a different number of records (e.g., 62,348 rows) due to updates in upstream sources (OMDB/MovieLens), we fix the dataset snapshot to 62,188 movies. This version has been validated and used throughout our modeling pipeline.
 
 We strongly advise against regenerating the dataset from scratch, as it may cause inconsistencies in modeling results.
+```
 
 ## Reproducibility Notes
+```
 Python version: 3.9
 Random seeds are fixed for consistent results
 SMOTE-resampled data is cached (optional)
 Trained models are saved in saved_models/ directory
+```
 
 
 ## Team Member
