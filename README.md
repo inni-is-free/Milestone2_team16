@@ -36,12 +36,6 @@ README.md
 - DBSCAN clustering for unsupervised exploration
 ```
 
-## Requirements
-```
-Install dependencies:
-pip install -r requirements.txt
-```
-
 ## Models Used for Supervised Learning
 ```
 RandomForest
@@ -83,8 +77,14 @@ SMOTE-resampled data is cached (optional)
 Trained models are saved in saved_models/ directory
 ```
 
+## Requirements
+```
+Install dependencies:
+pip install -r requirements.txt
+```
 
-## Team Member
+
+## Team Member(If you have any questions or get trouble, feel free to contact below team member!!)
 - Eric Kim : erikkim@umich.edu
 - Shin choo : shinchoo@umich.edu
 - Younghoon Oh : hooni@umich.edu
