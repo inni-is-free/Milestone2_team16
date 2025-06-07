@@ -8,7 +8,7 @@ This repository contains the code for Milestone 2 project of the MADS program.
 We implemented both Supervised Learning and Unsupervised Learning pipelines to build a movie rating prediction model and a recommendation system.
 
 ## 1. Directory Structure
-'''
+```
 1. Data_preparation/
 └── df_final_frozen_62188.csv
 
@@ -25,7 +25,7 @@ We implemented both Supervised Learning and Unsupervised Learning pipelines to b
 
 requirements.txt
 README.md
-'''
+```
 
 ## Features
 
