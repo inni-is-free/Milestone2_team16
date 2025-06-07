@@ -9,19 +9,22 @@ We implemented both Supervised Learning and Unsupervised Learning pipelines to b
 
 ## 1. Directory Structure
 
-├── 1. Data_preparation
-│ └── df_final_frozen_62188.csv (final dataset)
-├── 2. Supervised_learning_modeling
-│ ├── supervised_pipeline.py
-│ ├── SL_1_SMOTE_4Model(RF, XGBoost, LogiReg,KNN).ipynb
-│ ├── SL_2_SMOTE_XGBoost_Hyper_tunning_4Model_Ensemble_Acc_0.6788_F1_0.6695.ipynb
-│ ├── SL_3_NoSMOTE_XGBoost_Hyper_tunning_4Model_Ensemble_Acc_0.6897_F1_0.6619.ipynb
-│ └── SL_4_SMOTE_XGBoost(Hyper)_KNNRemoved_3Model_Ensemble_Acc_0.6922_F1_0.6677.ipynb
-├── 3. Unsupervised_learning_analysis
-│ ├── UL_1_cluster_analysis_Kmeans_3d.ipynb
-│ └── UL_2_cluster_analysis_DBSCAN_Failure Case.ipynb
-├── requirements.txt
-└── README.md
+1. Data_preparation/
+└── df_final_frozen_62188.csv
+
+2. Supervised_learning_modeling/
+├── supervised_pipeline.py
+├── SL_1_SMOTE_4Model(RF, XGBoost, LogiReg, KNN).ipynb
+├── SL_2_SMOTE_XGBoost_Hyper_tuning_4Model_Ensemble_Acc_0.6788_F1_0.6695.ipynb
+├── SL_3_NoSMOTE_XGBoost_Hyper_tuning_4Model_Ensemble_Acc_0.6897_F1_0.6619.ipynb
+└── SL_4_SMOTE_XGBoost(Hyper)_KNNRemoved_3Model_Ensemble_Acc_0.6922_F1_0.6677.ipynb
+
+3. Unsupervised_learning_analysis/
+├── UL_1_cluster_analysis_Kmeans_3d.ipynb
+└── UL_2_cluster_analysis_DBSCAN_Failure_Case.ipynb
+
+requirements.txt
+README.md
 
 ## Features
 
