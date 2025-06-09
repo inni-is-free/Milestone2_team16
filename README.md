@@ -7,7 +7,30 @@ Milestone2_team16
 This repository contains the code for Milestone 2 project of the MADS program.  
 We implemented both Supervised Learning and Unsupervised Learning pipelines to build a movie rating prediction model and a recommendation system.
 
-## 1. Directory Structure
+## Data Reproducibility Notice
+```
+To ensure reproducibility and consistent results in both unsupervised and supervised learning models, this project uses a frozen version of the final dataset: df_final_frozen_62188.csv.
+
+Although the same codebase can generate a different number of records (e.g., 62,348 rows) due to updates in upstream sources (OMDB/MovieLens), we fix the dataset snapshot to 62,188 movies. This version has been validated and used throughout our modeling pipeline.
+
+We strongly advise against regenerating the dataset from scratch, as it may cause inconsistencies in modeling results.
+
+** Note **
+
+The .ipynb files included in this repository are original and executable.
+However, to meet repository size limitations, heavy files such as trained model pickle files (.pkl) and large datasets (e.g., rating.csv) are not included directly here.
+Instead, we have:
+
+Provided sample or placeholder files in appropriate directories to maintain reproducibility structure
+
+Uploaded the complete datasets and models to Google Drive.
+
+If you would like to download the full executable code, please click the link below.
+[Download Link : https://drive.google.com/file/d/1WDLcvwp3oCh4jl5NvnRaF0RktxbLMTBv/view?usp=drive_link]
+
+```
+
+## Directory Structure
 ```
 1. Data_preparation/
 └── df_final_frozen_62188.csv
@@ -60,14 +83,6 @@ ROC / PR / Calibration curves
 Model performance comparison bar chart
 ```
 
-## Data Reproducibility Notice
-```
-To ensure reproducibility and consistent results in both unsupervised and supervised learning models, this project uses a frozen version of the final dataset: df_final_frozen_62188.csv.
-
-Although the same codebase can generate a different number of records (e.g., 62,348 rows) due to updates in upstream sources (OMDB/MovieLens), we fix the dataset snapshot to 62,188 movies. This version has been validated and used throughout our modeling pipeline.
-
-We strongly advise against regenerating the dataset from scratch, as it may cause inconsistencies in modeling results.
-```
 
 ## Reproducibility Notes
 ```
