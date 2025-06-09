@@ -57,7 +57,6 @@ README.md
 - Multi-hot encoding of genres, actors, directors, etc.
 - SMOTE for class imbalance handling
 - Model evaluation with ROC, PR, and calibration curves
-- DBSCAN clustering for unsupervised exploration
 ```
 
 ## Models Used for Supervised Learning
